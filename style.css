@@ -1,0 +1,56 @@
+  .center {
+      text-align: center;
+  }
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+  .guess{
+      display: inline;
+      font-size: 80px;
+      border: 2px solid black;
+      padding: 0 25px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.363);
+  }
+  #parent-input {
+    position: relative;
+    width: 160px;
+    margin: 5% auto 100px
+
+  }
+  #player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size:   60px;
+  }
+  #submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+  }
+  img {
+      display: inline;
+      width: 200px;
+      height: 100px;
+  }
+  #footer {
+      width: 100%;
+      border-top: solid 2px black;
+      background-color: white;
+      position: fixed;
+      bottom: 0;
+  }
+  body {
+      background-image: url('gambler.jpg')
+  }
+  #app {
+      width: 50%;
+      height: 40px auto;
+      background-color: rgba(256, 256, 256, 0.5)
+  }
+  
